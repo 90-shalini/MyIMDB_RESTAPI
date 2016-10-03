@@ -1,0 +1,6 @@
+driver=mysql
+port=3306
+server_ip=localhost
+database=movies
+username=root
+password=password
