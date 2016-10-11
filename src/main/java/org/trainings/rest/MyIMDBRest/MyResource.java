@@ -2,11 +2,8 @@ package org.trainings.rest.MyIMDBRest;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
-
-import org.trainings.rest.MyIMDBUtilities.MovieService;
 
 /**
  * Root resource (exposed at "myresource" path)
@@ -20,6 +17,8 @@ public class MyResource {
 	public String getIt() {
 		return "Got it!";
 	}
+	//Add code for other functionalitites like PUT, POST, DELETE 
+	//with header and authentication information
 	
 	
 }
